@@ -9,9 +9,9 @@ main {
   min-height: 60vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(img/banner.jpeg);
-
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-position: center center;
 }
 
 .logo {
@@ -33,7 +33,7 @@ main {
   margin: 3rem 0rem 0 0;
   padding: 2rem 4rem 2rem 2rem;
   border-radius: 2px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.527);
 }
 
 .regForm h3 {
@@ -135,16 +135,10 @@ footer a {
     margin: 3rem 3rem 0 0;
     width: 30%;
   }
-  main {
-    background-size: contain;
-  }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 540) {
   .regForm {
     min-width: 30%;
-  }
-  main {
-    background-size: cover;
   }
 }
