@@ -9,7 +9,7 @@ main {
   min-height: 60vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
     url(img/banner.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -17,7 +17,7 @@ main {
 .logo {
   text-align: left;
   margin-top: 5vh;
-  height: 50px;
+  height: 60px;
 }
 
 .page {
@@ -91,7 +91,7 @@ input[type="submit"] {
 /*======================== SECOND SECTION THE INTRO =================================================*/
 .landingInfo {
   margin: 2rem 0rem 2rem 0;
-  text-align: right;
+  text-align: left;
   color: #fff;
 }
 
@@ -120,7 +120,7 @@ input[type="submit"] {
 footer {
   text-align: center;
   color: gray;
-  padding: 1%;
+  padding: 0.4%;
 }
 
 footer a {
