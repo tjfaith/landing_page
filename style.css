@@ -135,7 +135,7 @@ footer a {
     width: 30%;
   }
   main {
-    background-size: contain;
+    background-size: cover;
   }
 }
 
