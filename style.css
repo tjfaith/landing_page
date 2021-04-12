@@ -8,7 +8,7 @@ main {
   padding: 0 5% 5% 5%;
   min-height: 60vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(/newbanner.jpg);
+    url(/img/newbanner.jpg);
   background-repeat: no-repeat;
   background-position: center center;
 }
