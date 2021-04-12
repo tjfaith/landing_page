@@ -130,15 +130,30 @@ footer a {
 }
 
 /* responisve query */
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 540px) {
   .regForm {
     margin: 3rem 3rem 0 0;
     width: 30%;
   }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 540px) {
   .regForm {
     min-width: 30%;
   }
+  .logoWrapper {
+    text-align: center;
+    width: 100%;
+  }
+  .landingInfo {
+    text-align: center;
+  }
 }
+
+/* 
+xs = Extra small <576px. Max container width None (auto)
+sm = Small ≥576px. Max container width 540px.
+md = Medium ≥768px. Max container width 720px.
+lg = Large ≥992px. Max container width 960px.
+xl = Extra large ≥1200px. Max container width 1140px. 
+*/
