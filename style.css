@@ -8,7 +8,11 @@ main {
   padding: 0 5% 5% 5%;
   min-height: 60vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+<<<<<<< HEAD
     url(/newbanner.jpg);
+=======
+    url(/IMG-20210412-WA0038.jpeg);
+>>>>>>> de65dde068c6e3fd464cf095ef9cbe0bcb89bca0
 
   background-repeat: no-repeat;
   background-position: center center;
@@ -17,7 +21,7 @@ main {
 .logo {
   text-align: left;
   margin-top: 5vh;
-  height: 50px;
+  height: 55px;
 }
 
 .page {
