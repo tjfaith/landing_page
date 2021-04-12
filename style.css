@@ -8,8 +8,9 @@ main {
   padding: 0 5% 5% 5%;
   min-height: 60vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-    url(img/banner.jpeg);
-
+    url("../img/newbanner.jpg");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -134,18 +135,10 @@ footer a {
     margin: 3rem 3rem 0 0;
     width: 30%;
   }
-  main {
-    background-size: contain;
-    background-position: center center;
-  }
 }
 
 @media screen and (max-width: 720px) {
   .regForm {
     min-width: 30%;
-  }
-  main {
-    background-size: cover;
-    background-position: center;
   }
 }
